@@ -26,14 +26,14 @@ public class Main {
                 maxSpending = spendings [i];
             }
         }
-        System.out.println("Минимальная сумма затрат " + maxSpending);
+        System.out.println("Максимальная сумма затрат " + maxSpending);
         int minSpending = 200001;
         for (int i = 0; i < spendings.length; i++) {
             if (spendings [i] < minSpending) {
                 minSpending = spendings [i];
             }
         }
-        System.out.println("Максимальная сумма затрат " + minSpending);
+        System.out.println("Минимальная сумма затрат " + minSpending);
         System.out.println();
         System.out.println("Задание 3");
         //какую в среднем сумму компания тратила в течение данных 30 дней
